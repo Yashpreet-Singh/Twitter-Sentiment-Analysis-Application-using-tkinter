@@ -6,7 +6,9 @@ There can be two approaches to sentiment analysis.
 2. Machine Learning-based methods.
 In this project, we will be using a Lexicon-based method.
 Lexicon based methods define a list of positive and negative words, with a valence — (eg ‘nice’: +2, ‘good’: +1, ‘terrible’: -1.5 etc). The algorithm looks up a text to find all known words. It then combines their individual results by summing or averaging. 
+
 Installing Dependencies:
+
 1)pip install tweepy
 This package will be used for handling the Twitter API.
 Tweepy supports OAuth authentication. Authentication is handled by the tweepy.OAuthHandler class.An OAuthHandler instance must be created by passing a consumer token and secret.
