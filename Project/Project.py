@@ -142,7 +142,7 @@ class Welcome(Frame):
         inputss()
         inputn()
 
-        if self.searchTerm1.get() == '' and self.NoOfTerms1 == 0:
+        if self.searchTerm1.get() == '' and self.NoOfTerms == 0:
             tkinter.messagebox.showerror("Error", "Please Input the Values!!")
             inputss()
             inputn()
@@ -151,7 +151,7 @@ class Welcome(Frame):
             tkinter.messagebox.showerror("Error", "Please Input a keyword/Hastag to get sentiment!!")
             inputss()
 
-        elif self.NoOfTerms1== 0:
+        elif self.NoOfTerms== 0:
             tkinter.messagebox.showerror("Error", "Please Input the No. of tweets to analyze!")
             inputn()
 
