@@ -1,5 +1,6 @@
 # Twitter-Sentiment-Analysis-using-tkinter
 We designed an application which performs sentiment analysis on Twitter on tweets that matched particular keywords provided by the user. For example if a user is interested in performing sentiment analysis on tweets which contain the word “Obama” he / she will enter that keyword and the application will perform the appropriate sentiment analysis and display the results for the user in pie chart in positive,negative or neutral sentiment.
+
 There can be two approaches to sentiment analysis.
 1. Lexicon-based methods
 2. Machine Learning-based methods.
@@ -17,5 +18,6 @@ TextBlob is a Python (2 and 3) library for processing textual data. It provides 
 
 3)pip install matplotlib
 This package is used for plotting graphs.
+
 Matplotlib is a plotting library for the Python programming language . It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK+.
 The sentiment property returns a named tuple of the form Sentiment (polarity, subjectivity). The polarity score is a float within the range [-1.0, 1.0] where 1.0 reflects the sentence being positive and -1.0 reflects the sentence being negative.
