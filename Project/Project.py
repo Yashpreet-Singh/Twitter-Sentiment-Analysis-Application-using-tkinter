@@ -23,7 +23,7 @@ class Welcome(Frame):
         self.master.geometry('{}x{}+{}+{}'.format(width, height, x, y))
         self.master.resizable(width=False, height=False)
 
-        self.image1 = PhotoImage(file="C:/Users/Yashpreet Singh/Downloads/projectpic2.png")
+        self.image1 = PhotoImage(file="file path to projectpic2.png")
         background_label = Label(self.master, image=self.image1).pack(side=TOP, expand=True, fill=BOTH)
 
         self.btn = Button(background_label, text="Run Tweet Sentiment", height=1, activebackground="#34CDFA",
@@ -51,7 +51,7 @@ class Welcome(Frame):
         help(tkinter)
 
     def con(self):
-        tkinter.messagebox.showinfo("S/W Contributors", '\n 1.Yashpreet Singh\n 2.Neha Vanjara\n ___Version 1.0___')
+        tkinter.messagebox.showinfo("S/W Contributors", '\n Names\n ___Version 1.0___')
 
     def app(self):
         tkinter.messagebox.showinfo("App Info",'\n1.Twitter Sentiment Analysis is a text mining technique for analyzing the underlying sentiment of people regarding certain topic via tweets.\n2.Twitter sentiment or opinion expressed through it may be positive, negative or neutral.\n3.Click Run to start the Analyzer ')
@@ -84,7 +84,7 @@ class Welcome(Frame):
         frame1 = Frame(framem, borderwidth=10)
         frame1.pack(fill=X)
 
-        self.image2 = PhotoImage(file="C:/Users/Yashpreet Singh/Downloads/tbac2.png")
+        self.image2 = PhotoImage(file="file path to tbac2.png")
         background_label1 = Label(frame1, image=self.image2, relief=FLAT).pack(fill=X)
 
         self.searchTerm1 = StringVar()
@@ -113,10 +113,10 @@ class Welcome(Frame):
         btn2 = Button(frame4, text="Cancel", command=self.exitt, height=1, width=20, bg="#55ADEE", fg="white",
                       font=("Sans 10 bold")).pack(pady=44)
 
-        consumer_key = 'JKXMMn1JHXjiL4Dqv80xhARo2'
-        consumer_secret = 'BHgtOQisz2hHAQHGWxHef3my7DjiCj1f2ZUaCYglbiM4Z0Jslg'
-        access_token = '4181699592-w8uc9BvYZnRqBPyCcWDv9PvOC7MsYj1mmcIfl2F'
-        access_token_secret = 'bYKftLgLAKhHy1PgZsKO7cXlf8Atz6h3UhOkqWMe4Ieo2'
+        consumer_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        consumer_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        access_token ='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        access_token_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 
         self.auth = tweepy.OAuthHandler(consumer_key=consumer_key, consumer_secret=consumer_secret)
         self.auth.set_access_token(access_token, access_token_secret)
