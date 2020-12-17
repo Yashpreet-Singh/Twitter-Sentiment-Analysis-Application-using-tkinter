@@ -11,9 +11,13 @@ Lexicon based methods define a list of positive and negative words, with a valen
 We need to register an app to generate various keys associated with our API. The Twitter API can be used to perform many actions like create and search.
 Keys generated:
 consumer_key = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX' 
+
 consumer_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXX’
+
 access_token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXX’
+
 access_token_secret = 'XXXXXXXXXXXXXXXXXXXXXXXX'
+
 X denotes an alphanumeric value.
 
 Installing Dependencies:
@@ -36,6 +40,20 @@ This package is used for plotting graphs.
 Matplotlib is a plotting library for the Python programming language . It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK+.
 The sentiment property returns a named tuple of the form Sentiment (polarity, subjectivity). The polarity score is a float within the range [-1.0, 1.0] where 1.0 reflects the sentence being positive and -1.0 reflects the sentence being negative.
 
+Welcome:
 
+<img src="Images/Screenshot%20(93).png" width=400px height=300px/>
+
+Input:
+
+<img src="Images/Screenshot%20(90).png" width=300px height=300px/>
+
+Output:
+
+<img src="Images/Screenshot%20(91).png" width=400px height=300px/>
+
+See tweets:
+
+<img src="Images/Screenshot%20(92).png" width=400px height=300px/>
 
 
