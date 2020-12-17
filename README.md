@@ -1,4 +1,4 @@
-# Twitter-Sentiment-Analysis-using-tkinter
+# Twitter Sentiment Analysis using Python-tkinter(GUI)
 We designed an application which performs sentiment analysis on Twitter on tweets that matched particular keywords provided by the user. For example if a user is interested in performing sentiment analysis on tweets which contain the word “Obama” he / she will enter that keyword and the application will perform the appropriate sentiment analysis and display the results for the user in pie chart in positive,negative or neutral sentiment.
 
 There can be two approaches to sentiment analysis.
