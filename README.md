@@ -10,6 +10,7 @@ Lexicon based methods define a list of positive and negative words, with a valen
 1)Getting the twitter API:
 We need to register an app to generate various keys associated with our API. The Twitter API can be used to perform many actions like create and search.
 Keys generated:
+
 consumer_key = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX' 
 
 consumer_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXX’
