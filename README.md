@@ -4,6 +4,7 @@ We designed an application which performs sentiment analysis on Twitter on tweet
 There can be two approaches to sentiment analysis.
 1. Lexicon-based methods
 2. Machine Learning-based methods.
+   
 In this project, we will be using a Lexicon-based method.
 Lexicon based methods define a list of positive and negative words, with a valence — (eg ‘nice’: +2, ‘good’: +1, ‘terrible’: -1.5 etc). The algorithm looks up a text to find all known words. It then combines their individual results by summing or averaging. 
 
